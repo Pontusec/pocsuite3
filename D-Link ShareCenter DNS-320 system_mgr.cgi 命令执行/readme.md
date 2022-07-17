@@ -1,0 +1,35 @@
+# D-Link ShareCenter DNS-320 system_mgr.cgi 远程命令执行漏洞
+
+漏洞描述
+
+```
+D-Link ShareCenter DNS-320 system_mgr.cgi 存在远程命令执行，攻击者通过漏洞可以控制服务器
+```
+
+漏洞影响
+
+```
+D-Link ShareCenter DNS-320
+```
+
+## 安装
+
+```
+pip3 install -r requirements.txt
+```
+
+## 使用
+
+poc
+
+```python
+pocsuite -r pocs/D-Link.py -u url
+```
+
+
+
+## 法律免责声明
+
+本工具仅面向合法授权的企业安全建设行为，如您需要测试本工具的可用性，请自行搭建测试环境。
+在使用本工具进行检测时，您应确保该行为符合当地的法律法规，并且已经取得了足够的授权。请勿对非授权目标进行扫描。
+如您在使用本工具的过程中存在任何非法行为，您需自行承担相应后果，我们将不承担任何法律及连带责任。
